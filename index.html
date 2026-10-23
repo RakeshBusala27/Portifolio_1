@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rakesh Ricky | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header" id="home">
+    <a class="logo" href="#home">RR<span>.</span></a>
+    <p class="header-note">MY PERSONAL PORTFOLIO</p>
+    <p class="availability"><span></span> OPEN TO OPPORTUNITIES</p>
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-topline"><span>FRONTEND DEVELOPER / AI & ML</span><span>BASED IN INDIA</span></div>
+      <h1 class="hero-title">PORTFOLIO</h1>
+
+      <div class="hero-content">
+        <div class="hero-left">
+          <p class="eyebrow">WHAT I'M INTO</p>
+          <h2>WEB / AI /<br>CREATIVE TECH</h2>
+          <ul>
+            <li>FRONTEND DEVELOPMENT</li>
+            <li>FULL-STACK WEB APPS</li>
+            <li>ARTIFICIAL INTELLIGENCE</li>
+          </ul>
+          <p class="quote">“I like turning ideas into digital experiences that are useful, clear and easy to use.”</p>
+          <span class="red-line"></span>
+        </div>
+
+        <div class="portrait">
+          <div class="portrait-circle"></div>
+          <img src="assets/image.png" alt="Rakesh Ricky profile placeholder">
+        </div>
+
+        <div class="hero-right">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h2>RAKESH<br>RICKY<span>.</span></h2>
+          <p class="role">FRONTEND DEVELOPER<br>AI/ML ENTHUSIAST</p>
+          <p class="intro">I build responsive websites and explore how AI can help solve real-world problems. I'm always learning new tools and finding ways to make my projects better.</p>
+          <a class="text-link" href="#projects">SEE MY PROJECTS <span>↘</span></a>
+          <div class="stats">
+            <div><strong>10<span>+</span></strong><small>SKILLS</small></div>
+            <div><strong>04</strong><small>PROJECT IDEAS</small></div>
+            <div><strong>∞</strong><small>MORE TO LEARN</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="skills">
+      <div class="section-title">
+        <div><p class="eyebrow">01 — MY SKILLS</p><h2>WHAT I DO<span>.</span></h2></div>
+        <p class="section-caption">Learning new things.<br>Building useful things.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-icon">⌘</span><h3>FRONTEND</h3><p>Building responsive pages with HTML, CSS, JavaScript and React.</p></article>
+        <article class="service-card"><span class="service-icon">▤</span><h3>WEB APPS</h3><p>Creating useful web applications with clean layouts and simple user flows.</p></article>
+        <article class="service-card"><span class="service-icon">◇</span><h3>BACKEND</h3><p>Working with Node.js, Express.js, APIs and MongoDB.</p></article>
+        <article class="service-card"><span class="service-icon">⌁</span><h3>AI / MACHINE LEARNING</h3><p>Exploring Python, machine learning and practical AI applications.</p></article>
+        <article class="service-card"><span class="service-icon">▦</span><h3>PROTOTYPING</h3><p>Testing ideas and turning them into working project concepts.</p></article>
+      </div>
+    </section>
+
+    <section class="section work" id="projects">
+      <div class="process">
+        <div class="section-title"><div><p class="eyebrow">02 — MY APPROACH</p><h2>MY PROCESS<span>.</span></h2></div></div>
+        <div class="process-step"><span>01</span><div><h3>UNDERSTAND</h3><p>Figure out the problem and what the project needs to do.</p></div></div>
+        <div class="process-step"><span>02</span><div><h3>PLAN</h3><p>Break the work into smaller, manageable tasks.</p></div></div>
+        <div class="process-step"><span>03</span><div><h3>BUILD</h3><p>Write the code, test it and improve the details.</p></div></div>
+        <div class="process-step"><span>04</span><div><h3>REFINE</h3><p>Fix issues and make the final experience better.</p></div></div>
+      </div>
+
+      <div class="featured-work">
+        <div class="section-title">
+          <div><p class="eyebrow">03 — PROJECT IDEAS</p><h2>FEATURED WORK<span>.</span></h2></div>
+          <a class="small-link" href="#contact">LET'S TALK ↗</a>
+        </div>
+        <div class="project-filters">
+          <button class="filter active" data-filter="all">ALL</button>
+          <button class="filter" data-filter="web">WEB</button>
+          <button class="filter" data-filter="ai">AI / ML</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-category="web">
+            <a class="project-image brand-image" href="#contact"><span class="image-label">CONCEPT 01</span><span class="brand-title">WE BUILD<br><em>BRANDS.</em></span><span class="image-arrow">↗</span></a>
+            <div class="project-info"><div><h3>BRAND STUDIO</h3><p>A landing page concept for a creative studio.</p></div><span>WEB DESIGN</span></div>
+          </article>
+          <article class="project-card" data-category="ai">
+            <a class="project-image data-image" href="#contact"><span class="image-label">CONCEPT 02</span><span class="data-title">SMART<br>INSIGHTS<small>DATA → DECISIONS</small></span><span class="chart-mark">⌁</span><span class="image-arrow">↗</span></a>
+            <div class="project-info"><div><h3>SMART INSIGHTS</h3><p>A dashboard concept for visualising useful data.</p></div><span>AI / DATA</span></div>
+          </article>
+          <article class="project-card" data-category="web">
+            <a class="project-image travel-image" href="#contact"><span class="image-label">CONCEPT 03</span><span class="travel-title">Explore<br>the <em>unknown.</em></span><span class="image-arrow">↗</span></a>
+            <div class="project-info"><div><h3>EXPLORE MORE</h3><p>A travel website concept with visual storytelling.</p></div><span>WEB DESIGN</span></div>
+          </article>
+          <article class="project-card" data-category="ai">
+            <a class="project-image vision-image" href="#contact"><span class="image-label">CONCEPT 04</span><span class="vision-title">VISION LAB<strong>AI_</strong><small>COMPUTER VISION / ML</small></span><span class="image-arrow">↗</span></a>
+            <div class="project-info"><div><h3>VISION LAB</h3><p>A placeholder for an AI or computer-vision project.</p></div><span>AI / ML</span></div>
+          </article>
+        </div>
+        <p class="project-note">These are sample concepts for the layout. Replace them with your actual projects before publishing.</p>
+      </div>
+    </section>
+
+    <section class="section about-tools" id="about">
+      <div class="about">
+        <div class="section-title"><div><p class="eyebrow">04 — A LITTLE ABOUT ME</p><h2>ABOUT ME<span>.</span></h2></div></div>
+        <div class="about-content">
+          <img class="about-photo" src="assets/image2.png" alt="Profile photo placeholder">
+          <div>
+            <p>I'm Rakesh Ricky, a developer interested in building useful digital products and learning more about AI.</p>
+            <p>I enjoy working on interfaces, exploring backend development and learning by making projects.</p>
+            <ul class="qualities"><li>Detail oriented</li><li>Problem solver</li><li>Curious and practical</li><li>Always learning</li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="tools">
+        <div class="section-title"><div><p class="eyebrow">05 — MY TOOLKIT</p><h2>TOOLS I USE<span>.</span></h2></div></div>
+        <div class="tools-grid">
+          <div><b class="html">5</b><span>HTML</span></div>
+          <div><b class="css">#</b><span>CSS</span></div>
+          <div><b class="js">JS</b><span>JAVASCRIPT</span></div>
+          <div><b class="react">⚛</b><span>REACT</span></div>
+          <div><b class="node">N</b><span>NODE.JS</span></div>
+          <div><b class="python">Py</b><span>PYTHON</span></div>
+          <div><b class="mongo">M</b><span>MONGODB</span></div>
+        </div>
+        <div class="skill-tags"><span>Express.js</span><span>Machine Learning</span><span>Artificial Intelligence</span><span>REST APIs</span></div>
+        <blockquote class="about-quote">“Good technology should solve a real problem — and feel simple to use.”</blockquote>
+      </div>
+    </section>
+
+    <section class="section journey" id="journey">
+      <div class="section-title"><div><p class="eyebrow">06 — BACKGROUND</p><h2>MY JOURNEY<span>.</span></h2></div><p class="section-caption">Learning never stops.</p></div>
+      <div class="journey-grid">
+        <article><span>01</span><div><p class="eyebrow">EDUCATION</p><h3>MASTER OF COMPUTER APPLICATIONS</h3><p>Aditya Engineering College · Kakinada</p><small>Add your year and current study details.</small></div></article>
+        <article><span>02</span><div><p class="eyebrow">EDUCATION</p><h3>BACHELOR OF COMPUTER APPLICATIONS</h3><p>Aditya Degree College · Kakinada</p><small>Add your graduation year and highlights.</small></div></article>
+        <article><span>03</span><div><p class="eyebrow">INTERNSHIP / EXPERIENCE</p><h3>DEVELOPMENT PROJECTS</h3><p>Assignments and hands-on learning</p><small>Add your organization, role, dates and results.</small></div></article>
+        <article><span>04</span><div><p class="eyebrow">CERTIFICATIONS</p><h3>TECHNICAL LEARNING</h3><p>Programming · Python · Cloud · Cybersecurity</p><small>Add certificate names and verification links.</small></div></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div>
+        <p class="eyebrow">07 — LET'S CONNECT</p>
+        <h2>HAVE AN IDEA?<br>LET'S BUILD <em>IT.</em></h2>
+        <p class="contact-copy">Have a project, collaboration, internship opportunity or just want to say hello? Send me a message.</p>
+        <a class="email-link" href="mailto:rakeshbusala9@gmail.com">RAKESHBUSALA9@GMAIL.COM ↗</a>
+      </div>
+      <div class="social-links">
+        <a href="mailto:rakeshbusala9@gmail.com"><span>✉</span><div><small>EMAIL</small><strong>Send me a message</strong></div><b>↗</b></a>
+        <a href="https://www.linkedin.com/in/rakesh-busala-b287b42a5/" target="_blank" rel="noopener noreferrer"><span>in</span><div><small>LINKEDIN</small><strong>Connect professionally</strong></div><b>↗</b></a>
+        <a href="https://github.com/RakeshBusala27" target="_blank" rel="noopener noreferrer"><span>⌘</span><div><small>GITHUB</small><strong>Explore my code</strong></div><b>↗</b></a>
+        <p class="contact-stamp">BUILDING WHAT'S NEXT ✳</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="footer-logo">RAKESH RICKY<span>.</span></a>
+    <p>DESIGNED WITH CURIOSITY. BUILT WITH CODE.</p>
+    <a href="#home">BACK TO TOP ↑</a>
+    <small>© <span id="year">2026</span> Rakesh Ricky. All rights reserved.</small>
+  </footer>
+</body>
+</html>
